@@ -1,15 +1,18 @@
 <?php
 
-$a = true;
-var_dump(!$a);
-if ($a)
-{
-    print_r(111);
-}
-if (!$a)
-{
-    print_r(2222);
-}
+$b = 1;
+$a = array(
+    'init' => '1111',
+    'com' => '2222',
+    'ccccccccc'
+);
 
-11111
-22222
+foreach ($a as $v)
+{
+    if ($b !=1 && ($a['init'] == $v || $a['com']==$v))
+    {
+        print_r(444);
+        continue;
+    }
+    print_r($v);
+}
