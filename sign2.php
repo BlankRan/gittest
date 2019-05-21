@@ -12,8 +12,8 @@ foreach ($a as $v)
     if ($b !=1 && ($a['init'] == $v || $a['com']==$v))
     {
         print_r(444);
-        continue;
+        continue;2
     }
     print_r($v);
 }
-//1
+//12
