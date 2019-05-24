@@ -12,7 +12,7 @@ foreach ($a as $v)
     if ($b !=1 && ($a['init'] == $v || $a['com']==$v))
     {
         print_r(444);
-        continue;2
+        continue;
     }
     print_r($v);
 }
